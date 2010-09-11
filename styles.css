@@ -1,0 +1,82 @@
+table, td {
+                /*border: 1px solid black;*/
+                border-collapse: collapse;
+                visibility:visible;
+                background-color:#222;
+                margin:0px;
+                padding:0px;
+            }
+
+
+.style72 { background-image: url("shapes/72.png"); }
+.style71 { background-image: url("shapes/71.png"); }
+.style70 { background-image: url("shapes/70.png"); }
+.style69 { background-image: url("shapes/69.png"); }
+.style68 { background-image: url("shapes/68.png"); }
+.style67 { background-image: url("shapes/67.png"); }
+.style66 { background-image: url("shapes/66.png"); }
+.style65 { background-image: url("shapes/65.png"); }
+.style64 { background-image: url("shapes/64.png"); }
+.style63 { background-image: url("shapes/63.png"); }
+.style62 { background-image: url("shapes/62.png"); }
+.style61 { background-image: url("shapes/61.png"); }
+.style60 { background-image: url("shapes/60.png"); }
+.style59 { background-image: url("shapes/59.png"); }
+.style58 { background-image: url("shapes/58.png"); }
+.style57 { background-image: url("shapes/57.png"); }
+.style56 { background-image: url("shapes/56.png"); }
+.style55 { background-image: url("shapes/55.png"); }
+.style54 { background-image: url("shapes/54.png"); }
+.style53 { background-image: url("shapes/53.png"); }
+.style52 { background-image: url("shapes/52.png"); }
+.style51 { background-image: url("shapes/51.png"); }
+.style50 { background-image: url("shapes/50.png"); }
+.style49 { background-image: url("shapes/49.png"); }
+.style48 { background-image: url("shapes/48.png"); }
+.style47 { background-image: url("shapes/47.png"); }
+.style46 { background-image: url("shapes/46.png"); }
+.style45 { background-image: url("shapes/45.png"); }
+.style44 { background-image: url("shapes/44.png"); }
+.style43 { background-image: url("shapes/43.png"); }
+.style42 { background-image: url("shapes/42.png"); }
+.style41 { background-image: url("shapes/41.png"); }
+.style40 { background-image: url("shapes/40.png"); }
+.style39 { background-image: url("shapes/39.png"); }
+.style38 { background-image: url("shapes/38.png"); }
+.style37 { background-image: url("shapes/37.png"); }
+.style36 { background-image: url("shapes/36.png"); }
+.style35 { background-image: url("shapes/35.png"); }
+.style34 { background-image: url("shapes/34.png"); }
+.style33 { background-image: url("shapes/33.png"); }
+.style32 { background-image: url("shapes/32.png"); }
+.style31 { background-image: url("shapes/31.png"); }
+.style30 { background-image: url("shapes/30.png"); }
+.style29 { background-image: url("shapes/29.png"); }
+.style28 { background-image: url("shapes/28.png"); }
+.style27 { background-image: url("shapes/27.png"); }
+.style26 { background-image: url("shapes/26.png"); }
+.style25 { background-image: url("shapes/25.png"); }
+.style24 { background-image: url("shapes/24.png"); }
+.style23 { background-image: url("shapes/23.png"); }
+.style22 { background-image: url("shapes/22.png"); }
+.style21 { background-image: url("shapes/21.png"); }
+.style20 { background-image: url("shapes/20.png"); }
+.style19 { background-image: url("shapes/19.png"); }
+.style18 { background-image: url("shapes/18.png"); }
+.style17 { background-image: url("shapes/17.png"); }
+.style16 { background-image: url("shapes/16.png"); }
+.style15 { background-image: url("shapes/15.png"); }
+.style14 { background-image: url("shapes/14.png"); }
+.style13 { background-image: url("shapes/13.png"); }
+.style12 { background-image: url("shapes/12.png"); }
+.style11 { background-image: url("shapes/11.png"); }
+.style10 { background-image: url("shapes/10.png"); }
+.style9 { background-image: url("shapes/9.png"); }
+.style8 { background-image: url("shapes/8.png"); }
+.style7 { background-image: url("shapes/7.png"); }
+.style6 { background-image: url("shapes/6.png"); }
+.style5 { background-image: url("shapes/5.png"); }
+.style4 { background-image: url("shapes/4.png"); }
+.style3 { background-image: url("shapes/3.png"); }
+.style2 { background-image: url("shapes/2.png"); }
+.style1 { background-image: url("shapes/1.png"); }

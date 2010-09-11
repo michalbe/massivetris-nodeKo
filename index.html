@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <link href='/shapes/7.png' rel='shortcut icon'/>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Massivetris by Virtual Design</title>
+        <link href="/styleWWW.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="/styles.css" type="text/css"/>
+        <script src="/socketIO/json.js"></script> <!-- for ie -->
+        <script src="/socketIO/socket.io.js"></script>
+        <script>
+            var i=72, avatars=[], avatary='', choosenOne;
+            
+            while(i--) {
+                avatars.push(i+1);
+            }
+            avatars.sort(function(){ return Math.random()-0.5; });
+            
+            choosenOne=avatars[0];
+            var choosenText = '<img src="/shapes/'+avatars[0]+'.png" style="margin-right:15px;align:top;" id="choosen"/>';
+                
+            i=avatars.length;
+            while(i--) {
+                avatary+= '<img src="/shapes/'+avatars[i]+'.png" style="margin:5px;cursor:pointer" onclick="choosenOne='+avatars[i]+';document.getElementById(\'choosen\').src=\'/shapes/'+avatars[i]+'.png\';"/>';
+                if (i%12==0) avatary+='<br/>';
+            }
+        </script>
+    </head>
+    <body>
+        <div id="headerPan"></div>
+        <div id="mainBody">
+            <div id="login" style="text-align:center;">
+                Enter your name and choose your avatar:<br/>
+                <script>document.write(choosenText);</script><input type="text" id="name"><br/>
+                <script>
+                    document.write(avatary);
+                </script>
+                <div style="border:2px solid #333;width:auto;width:300px;margin:auto;margin-top:10px;cursor:pointer" onclick="LoginIn();"><img src="/images/arrow.png" /> GO AND PLAY <img src="/images/arrow.png" /></div>
+            </div>
+            <div id='game' style="display:none">
+                Points: <span id='points'>0</span> || Use <b>W S A D</b> to move blocks. Try to create a horizontal line without gaps. And then <a href="http://nodeknockout.com/teams/virtual-design">Vote Me</a>.
+                <div id="container"></div>
+                <div id="users" style="text-align:center;"/></div>
+            </div>
+        </div>
+        <div id="footerMain">
+            <div id="footer">
+                <p>&copy; Idea & Design & Code by <a href="http://michalbe.blogspot.com" target="_blank">Michał Budzyński</a></p>
+                <p>Trademarks and Logos of sponsors are owned by sponsors or something like that.</p>
+                <p class="copy">Links: <a href="http://nodeknockout.com/" target="_blank">NodeKnockout</a><br />TeamSite <a href="http://nodeknockout.com/teams/virtual-design">VirtualDesign</a> | <a href="http://www.virtualdesign.pl" >virtualdesign.pl</a></p>
+            </div>
+        </div>
+        <a href="http://nodeknockout.com/teams/virtual-design" target="nko" title="Help me win Node.js KO!"><img style="position: fixed; top: 5px; right: 5px; border: 0px;" src="http://nodeknockout.com/images/voteko.png" alt="Help me win Node.js KO!" /></a>
+    <script src="script.js"></script>
+    </body>
+</html>

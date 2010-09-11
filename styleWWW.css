@@ -1,0 +1,59 @@
+/* CSS Document */
+body{
+	padding:0; margin:0; background:url(images/bg.gif) repeat-x #000; color:#A5A5A4;
+	}
+div, ul, h1, h2, h3, h4, p, img, form{
+	padding:0; margin:0;
+	}
+a {
+    color:#666;
+}
+
+/*--------------------------------header pan---------------------------*/
+#headerPan{
+	width:778px; margin:0 auto 0 auto; background:url(images/header_pic.jpg) no-repeat; height:200px;
+	}
+
+/*----------------------------------body part----------------*/
+#mainBody{
+	width:800px; margin:24px auto 0 auto; 
+	}
+    
+#mainBody input{
+	width:158px; height:18px; background-color:#171717; border:#494949 1px solid; color:#ACACAC; margin: 10px 0;
+	}
+#footerMain{
+	background:url(images/footer_bg.gif) repeat-x 0 0; width:100%;
+	}	
+#footer{
+	background:url(images/footer.gif) no-repeat 0 0; height:97px; width:778px; margin:0 auto 0 auto; padding:74px 0 0 0;
+	}
+#footer ul{
+	width:446px; display:block; margin:0px 0 0 270px; padding:0; font-size:0; height:20px; 
+	}
+#footer ul li{
+	color:#9B9B9B; font:12px/18px "Trebuchet MS", Arial, Helvetica, sans-serif;  float:left; background-color:#0F0F0F;
+	padding:0; margin:0;
+	}
+#footer ul li a{
+	color:#9B9B9B; font:12px/18px "Trebuchet MS", Arial, Helvetica, sans-serif;  background-color:#0D0D0D;
+	text-decoration:none; padding:0 6px 0 6px; 
+	}
+#footer ul li a:hover{
+	text-decoration:underline;
+	}
+#footer p{
+	width:324px; display:block; font:12px/18px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#EAEAEA; margin:0px 0 0 430px;
+	padding:0 0 9px 0;
+	}
+
+#footer p.copy{
+	width:250px; display:block; font:12px/18px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#EAEAEA; margin:0;
+	padding:0; float:right; display:block;
+	}
+#footer p.copy a{
+	text-decoration:underline; color:#EAEAEA; background-color:#030303;
+	}
+#footer p.copy a:hover{
+	text-decoration:none
+	}
